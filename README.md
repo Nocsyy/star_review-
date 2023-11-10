@@ -95,11 +95,11 @@ Ce composant React, appelé "Rating", est conçu pour afficher et recueillir des
     />
 
 4. **Functionality**
-Hover: When the user hovers over a star, previous stars and the current star become "hovered," providing a visual indication of the potential rating.
-
-Click: When a star is clicked, the handleRating function is called with the value of the selected star.
-
-Display: Stars are represented by the "★" character, with the "selected" CSS class indicating chosen stars.
+   Hover: When the user hovers over a star, previous stars and the current star become "hovered," providing a visual indication of the potential rating.
+   
+   Click: When a star is clicked, the handleRating function is called with the value of the selected star.
+   
+   Display: Stars are represented by the "★" character, with the "selected" CSS class indicating chosen stars.
 
 5. **Styles**
     The component uses an external style file, "rating.css," allowing easy customization of star styles. Make sure to import this file to achieve the desired appearance.
