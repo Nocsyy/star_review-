@@ -1,0 +1,25 @@
+.ctn-star {
+    width: auto;
+    font-size: large;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ctn-star span {
+    margin-right: 0.5vw;
+  }
+  
+  .star {
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(128, 128, 128, 0.479);
+  }
+  
+  .selected {
+    color: rgb(48, 104, 82);
+  }
+  
+  .star.hovered {
+    color: rgb(48, 104, 82);
+  }
+  
