@@ -23,7 +23,8 @@ Ce composant React, appelé "Rating", est conçu pour afficher et recueillir des
 
     className: Une classe CSS optionnelle à appliquer au conteneur du composant pour une personnalisation aisée.
 
-3. **Exemple d'utilisation**    
+3. **Exemple d'utilisation**
+      ```jsx
     const handleRatingChange = (newValue) => {
     console.log('Nouvelle valeur de rating :', newValue);
     // Mettez à jour l'état ou effectuez d'autres actions en conséquence.
@@ -38,14 +39,14 @@ Ce composant React, appelé "Rating", est conçu pour afficher et recueillir des
     />
 
 
-4. **Fonctionnement**
+5. **Fonctionnement**
     Survolez : Lorsque l'utilisateur survole une étoile, les étoiles précédentes et l'étoile actuelle deviennent "hovered", offrant une indication visuelle de la note potentielle.
 
     Cliquez : Lorsqu'une étoile est cliquée, la fonction handleRating est invoquée avec la valeur de l'étoile sélectionnée.
 
     Affichage : Les étoiles sont représentées par le caractère "★", avec la classe CSS "selected" indiquant les étoiles choisies.
 
-5. **Styles**
+6. **Styles**
     Le composant utilise un fichier de style externe, "rating.css", pour permettre une personnalisation facile des styles des étoiles. Assurez-vous d'importer ce fichier pour obtenir l'apparence souhaitée.
 
 
@@ -61,8 +62,7 @@ Ce composant React, appelé "Rating", est conçu pour afficher et recueillir des
 
     Make sure to import the component and the associated style file into your file where you intend to use it.
 
-    jsx
-    Copy code
+      ```jsx
     import Rating from './Rating';
     import './rating.css';
 
@@ -80,8 +80,7 @@ Ce composant React, appelé "Rating", est conçu pour afficher et recueillir des
 
 3. **Usage Example:**
 
-    jsx
-    Copy code
+       ```jsx
     const handleRatingChange = (newValue) => {
     console.log('New rating value:', newValue);
     // Update state or perform other actions accordingly.
