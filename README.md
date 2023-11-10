@@ -24,7 +24,7 @@ Ce composant React, appelé "Rating", est conçu pour afficher et recueillir des
     className: Une classe CSS optionnelle à appliquer au conteneur du composant pour une personnalisation aisée.
 
 3. **Exemple d'utilisation**
-      ```jsx
+    ```jsx
     const handleRatingChange = (newValue) => {
     console.log('Nouvelle valeur de rating :', newValue);
     // Mettez à jour l'état ou effectuez d'autres actions en conséquence.
@@ -62,7 +62,7 @@ Ce composant React, appelé "Rating", est conçu pour afficher et recueillir des
 
     Make sure to import the component and the associated style file into your file where you intend to use it.
 
-      ```jsx
+     ```jsx
     import Rating from './Rating';
     import './rating.css';
 
@@ -80,7 +80,7 @@ Ce composant React, appelé "Rating", est conçu pour afficher et recueillir des
 
 3. **Usage Example:**
 
-       ```jsx
+   ```jsx
     const handleRatingChange = (newValue) => {
     console.log('New rating value:', newValue);
     // Update state or perform other actions accordingly.
